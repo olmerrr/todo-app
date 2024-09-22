@@ -69,4 +69,11 @@ const addToFavorites = (todo) => {
   font-size: 16px;
   font-weight: 600;
 }
+
+@media (max-width: 760px) {
+  .todo {
+    gap: 10px;
+    flex-direction: column;
+  }
+}
 </style>

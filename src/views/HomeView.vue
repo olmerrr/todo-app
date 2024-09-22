@@ -3,9 +3,7 @@
     <header class="header"></header>
 
     <main class="main">
-      <div class="container">
-        <LoginForm />
-      </div>
+      <LoginForm />
     </main>
 
     <footer class="footer"></footer>
@@ -23,6 +21,7 @@ import LoginForm from '../components/LoginForm.vue'
 
 .home-page {
   background-color: #545454;
+  min-height: 100vh;
 }
 
 .header {
@@ -32,9 +31,10 @@ import LoginForm from '../components/LoginForm.vue'
 
 .main {
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 120px);
 }
 
 .footer {

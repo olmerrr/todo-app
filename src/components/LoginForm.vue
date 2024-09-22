@@ -109,7 +109,7 @@ const onSubmit = async () => {
 
 @media (max-width: 460px) {
   .login-form {
-    max-width: 300px;
+    max-width: 280px;
   }
 }
 </style>

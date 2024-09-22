@@ -56,4 +56,17 @@ const emitFilters = () => {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 460px) {
+  .filters-todo {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filters-todo select,
+  .filters-todo input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
 </style>
